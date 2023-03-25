@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "app": "nodemon app.js",
+    "app": "nodemon app.js"
   },
   "author": "Saharsh Gupta",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.7",
+    "node-sass": "^8.0.0",
     "nodemailer": "^6.7.3",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "nodemon": "^2.0.15"

@@ -115,16 +115,16 @@ const Home = () => {
     return (
         <div class="row">
             <div class="col-4">
-                <button 
+                <div 
                     onClick={() => setComp("diy")}
                 >
                     DIY
-                </button>
-                <button 
+                </div>
+                <div 
                     onClick={() => setComp("quiz")}
                 >
-                    Quiz
-                </button>
+                    F&Q
+                </div>
             </div>
             <div class="col-8">
                 {comp=="diy" ? (
